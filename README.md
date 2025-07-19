@@ -1,19 +1,55 @@
-# Income Prediction Model (UCI Adult Dataset)
+# 🧾 Income Prediction Model (UCI Adult Dataset)
 
-This project uses the UCI Adult Census dataset to predict whether an individual's income exceeds $50K/year. The goal is to explore classification models, perform feature engineering, and evaluate model performance using Python.
+This project uses the UCI Adult Census dataset to predict whether an individual's income exceeds $50K/year. The goal is to build classification models, explore feature importance, and evaluate model performance using Python.
+
+---
 
 ## 🧠 Tools & Libraries
-- Python (scikit-learn, pandas, numpy)
-- Data Visualization: seaborn, matplotlib
-- Jupyter Notebook
+- **Programming:** Python
+- **Libraries:** scikit-learn, pandas, numpy
+- **Visualization:** seaborn, matplotlib
+- **Environment:** Jupyter Notebook
+
+---
 
 ## 📊 Features
 - Data cleaning and preprocessing
-- Feature encoding (label, one-hot)
-- Model comparison (Logistic Regression, Decision Tree, Random Forest)
-- Evaluation using accuracy, precision, recall, and F1 score
+- Feature encoding (Label Encoding, One-Hot Encoding)
+- Correlation heatmap and exploratory data analysis (EDA)
+- Model building with:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+- Model evaluation using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
 
-## 📁 Files
-- `Income_Prediction.ipynb`: Full notebook with code, visualizations, and insights
-- `adult.csv`: Dataset used (UCI Adult Dataset)
+---
 
+## 📁 Files Included
+- `Income_Prediction.ipynb` – Full notebook with code, visualizations, and insights
+- `adult.csv` – Dataset from the UCI Adult Census
+- `correlation_heatmap.png`, `income_distribution.png`, `income_by_gender.png`, `education_vs_income.png`, `age_distribution_by_income.png` – Visuals used in the notebook
+
+---
+
+## 📌 Insights
+- Education level and age show a positive correlation with income.
+- Males are more likely to earn >$50K in this dataset.
+- Higher hours-per-week and capital gains tend to be associated with higher income levels.
+
+---
+
+## 📎 Dataset Source
+UCI Machine Learning Repository – [Adult Dataset](https://archive.ics.uci.edu/ml/datasets/adult)
+
+---
+
+## 👤 Author
+**Spandana Dodde**  
+📧 [sdodde@clarku.edu](mailto:sdodde@clarku.edu)  
+📍 Master’s in Data Analytics, Clark University
+
+---
